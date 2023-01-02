@@ -58,7 +58,22 @@ In conclusion, it is very complicated to integrate all these factors in simple w
 
 ## ARIMA  
 
+### components  
+**AR** part actually estimates the value of time series based on regressor given the past time series values. $n$ th AR model is described as follows.    
 
+$$ y_t = a_1 y_{t-1} + a_2 y_{t-2} + ... + a_n y_{t-n} + \epsilon $$  
+
+**MA** part is independent of AR part and does not rely on the past values. It uses past errors.  
+
+$$ y_t = m_1 \epsilon_{t-1} + m_2 \epsilon_{t-2} + m_3 \epsilon_{t-3} + ... + \epsilon $$  
+
+One way to compute the 1st error is `Levenberg-Marquardt Arglrithm`.  
+
+If we combine AR and MA then we get `ARMA` model which only fits stationary time series data. In previous chapters diffrencing is an effective way to make non-stationary data as stationay. We can check stationarity by ADF test which sets the null hypothesis that if the time series data have unit root then they are not stationary.  
+
+To convert data back to the original one, we compute cumulative sum of difference series. Cumulative sum can be interpreted as Integration. So this is the 3rd part of `ARIMA` model which can be called as **Integrated**.  
+
+If we tell the model the order of differencing then model can perform conversion and reversion automatically.  
 
 ---
 ## Source  
