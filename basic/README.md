@@ -36,6 +36,18 @@ If data is not stationary we have to make it as stationary data. If we compute d
 - Vector Autoregression (VAR)  
 - Vector Autoregression Moving Average (VARMA)  
 
+### challenges of classifical methods  
+- how do we decide differencing order?  
+- how do we decide model order (AR? MA?)  
+
+To do so, we have to understand autocorrelation plot and partial autocorrelation plot.  
+
+- how do we decide seasonality order?  
+
+We also have to what method we should choose to remove seasonality.  
+
+In conclusion, it is very complicated to integrate all these factors in simple way when we use classical methods.  
+
 ---
 ### Source  
 This contents are originated from [this course](https://fastcampus.app/course-detail/210867). You may take this course if you want more details.  
