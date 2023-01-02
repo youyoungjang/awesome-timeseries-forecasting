@@ -1,6 +1,13 @@
 <h1 align="center">Basic Knowledge</h1>
 <h5 align="center"> </h5>
 
+## Contents  
+- [Introduction](#introduction)
+- [ARIMA](#arima)
+- [SOURCE](#source)
+
+## Introduction  
+
 ### components of time series
 - Non-stationary Time Series = trend + seasonality + residual  
 - Stationary Time Series = only residual
@@ -48,6 +55,11 @@ We also have to what method we should choose to remove seasonality.
 
 In conclusion, it is very complicated to integrate all these factors in simple way when we use classical methods.  
 
+
+## ARIMA  
+
+
+
 ---
-### Source  
+## Source  
 This contents are originated from [this course](https://fastcampus.app/course-detail/210867). You may take this course if you want more details.  
