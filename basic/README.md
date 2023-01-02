@@ -19,7 +19,8 @@
 - visual test  
 - statistical test
 
-examples of statistical test are as follows
+examples of statistical test are as follows  
+
 **ADF**: Augmented Dickey Fuller Test)  
 **KPSS**: Kwiatkowsky-Phillips-Schmidt-Shin  
 
