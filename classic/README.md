@@ -1,4 +1,4 @@
-<h1 align="center">Basic Knowledge</h1>
+<h1 align="center">Basic Knowledge of Classical Algorithms</h1>
 <h5 align="center"> </h5>
 
 ## Contents  
