@@ -19,7 +19,6 @@
 $$ y(t) = g(t) + s(t) + h(t) + \epsilon(t) $$  
 
 
-
 ## References  
 - [Prophet Document](https://facebook.github.io/prophet/docs/quick_start.html#python-api)  
 - [Fastcampus Course](https://fastcampus.app/course-detail/210867)  
