@@ -12,7 +12,7 @@
 ## Papers  
 
 ### baseline algorithms  
-- [Prophet, 2017](https://peerj.com/preprints/3190.pdf)  
+- [Prophet: Forecasting at Scale, 2017](https://peerj.com/preprints/3190.pdf)  
 
 ### survey  
 - [Time Series Forecasting With Deep Learning: A Survey, 2020](https://arxiv.org/abs/2004.13408)  
@@ -25,6 +25,6 @@
 - [Temporal Fusion Transformers for interpretable multi-horizon time series forecasting, 2021](https://www.sciencedirect.com/science/article/pii/S0169207021000637)  
 
 ### other deep learning approaches  
-- [DeepAR, 2017](https://arxiv.org/pdf/1704.04110.pdf)  
+- [DeepAR: Probabilistic Forecasting with Autoregressive Recurrent Networks, 2017](https://arxiv.org/pdf/1704.04110.pdf)  
 - [Connecting the Dots, Multivariate Time Series Forecasting with GNN, 2020](https://arxiv.org/abs/2005.11650)  
 - [Self-Adaptive Forecasting for Improved Deep Learning on Non-Stationary Time-Series, 2022](https://arxiv.org/abs/2202.02403)  
