@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 from datetime import datetime
-from prophet_example.uber.utils import get_stock_price
+from data_utils.utils import get_stock_price_for_prophet
 
 from prophet import Prophet
 from prophet.diagnostics import cross_validation
@@ -8,7 +8,7 @@ from prophet.diagnostics import performance_metrics
 
 
 today = datetime.strftime(datetime.today(), '%Y-%m-%d')
-df = get_stock_price('UBER', '2000-01-01', today)
+df = get_stock_price_for_prophet('UBER', '2000-01-01', today)
 
 # split
 test_days = 30

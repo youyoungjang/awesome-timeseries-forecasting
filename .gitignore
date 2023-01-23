@@ -3,6 +3,7 @@ venv/
 files/
 m5_data/
 .idea/
+wandb/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
