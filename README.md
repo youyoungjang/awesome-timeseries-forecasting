@@ -13,6 +13,7 @@
 ## Papers  
 
 ### baseline algorithms  
+- [An Introductory Study on Time Series Modeling and Forecasting, 2013](https://arxiv.org/ftp/arxiv/papers/1302/1302.6613.pdf)  
 - [Prophet: Forecasting at Scale, 2017](https://peerj.com/preprints/3190.pdf)  
 
 ### survey  
@@ -20,7 +21,9 @@
 
 ### transformer-based approaches  
 - [A Transformer-based Framework for Multivariate Time Series Representation Learning, 2020](https://arxiv.org/abs/2010.02803)  
+- [Adversarial Sparse Transformer for Time Series Forecasting, 2020](https://proceedings.neurips.cc/paper/2020/file/c6b8c8d762da15fa8dbbdfb6baf9e260-Paper.pdf)  
 - [Gated Transformer Networks for Multivariate Time Series Classification, 2021](https://arxiv.org/abs/2103.14438)  
+- [Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series forecasting, 2021](https://papers.nips.cc/paper/2021/file/bcc0d400288793e8bdcd7c19a8ac0c2b-Paper.pdf)  
 - [Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting, 2021](https://ojs.aaai.org/index.php/AAAI/article/view/17325)  
 - [Long-Range Transformers for Dynamic Spatiotemporal Forecasting, 2021](https://arxiv.org/abs/2109.12218)  
 - [Temporal Fusion Transformers for interpretable multi-horizon time series forecasting, 2021](https://www.sciencedirect.com/science/article/pii/S0169207021000637)  
@@ -35,7 +38,8 @@
 - [A Deep Neural Network for Unsupervised Anomaly Detection and Diagnosis in Multivariate Time Series Data, 2019](https://ojs.aaai.org/index.php/AAAI/article/view/3942)  
 - [MAD-GAN: Multivariate Anomaly Detection for Time Series Data with Generative Adversarial Networks, 2019](https://arxiv.org/abs/1901.04997)  
 - [Robust Anomaly Detection for Multivariate Time Series through Stochastic Recurrent Neural Network, 2019](https://www.semanticscholar.org/paper/Robust-Anomaly-Detection-for-Multivariate-Time-Su-Zhao/440d248d148f7e36dad232e48f1c5c1cbc556d86)  
-- [USAD : UnSupervised Anomaly Detection on multivariate time series, 2020](https://www.kdd.org/kdd2020/accepted-papers/view/usad-unsupervised-anomaly-detection-on-multivariate-time-series)  
+- [RobustTAD: Robust Time Series Anomaly Detection via Decomposition and Convolutional Neural Networks, 2020](https://arxiv.org/pdf/2002.09545v1.pdf)  
+- [USAD: UnSupervised Anomaly Detection on multivariate time series, 2020](https://www.kdd.org/kdd2020/accepted-papers/view/usad-unsupervised-anomaly-detection-on-multivariate-time-series)  
 - [Timeseries Anomaly Detection using Temporal Hierarchical One-Class Network, 2020](https://proceedings.neurips.cc/paper/2020/file/97e401a02082021fd24957f852e0e475-Paper.pdf)  
 - [Graph Neural Network-Based Anomaly Detection in Multivariate Time Series, 2021](https://arxiv.org/pdf/2106.06947.pdf)  
 
