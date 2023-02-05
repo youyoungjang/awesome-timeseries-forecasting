@@ -29,8 +29,15 @@
 - [Temporal Fusion Transformers for interpretable multi-horizon time series forecasting, 2021](https://www.sciencedirect.com/science/article/pii/S0169207021000637)  
 
 ### other deep learning approaches  
+- [Recurrent Neural Networks for Multivariate Time Series with Missing Values, 2016](https://arxiv.org/abs/1606.01865)  
 - [DeepAR: Probabilistic Forecasting with Autoregressive Recurrent Networks, 2017](https://arxiv.org/pdf/1704.04110.pdf)  
+- [BRITS: Bidirectional Recurrent Imputation for Time Series, 2018](https://paperswithcode.com/paper/brits-bidirectional-recurrent-imputation-for)  
+- [A Memory-Network Based Solution for Multivariate Time-Series Forecasting, 2018](https://arxiv.org/pdf/1809.02105v1.pdf)  
+- [Spectral Temporal Graph Neural Network for Multivariate Time-series Forecasting, 2020](https://arxiv.org/pdf/2103.07719v1.pdf)  
 - [Connecting the Dots, Multivariate Time Series Forecasting with GNN, 2020](https://arxiv.org/abs/2005.11650)  
+- [Adaptive Graph Convolutional Recurrent Network for Traffic Forecasting, 2020](https://arxiv.org/pdf/2007.02842v2.pdf)  
+- [Probabilistic Forecasting with Temporal Convolutional Neural Network, 2019](https://arxiv.org/pdf/1906.04397.pdf)  
+- [Multivariate Probabilistic Time Series Forecasting via Conditioned Normalizing Flows, 2020](https://arxiv.org/pdf/2002.06103v3.pdf)  
 - [Self-Adaptive Forecasting for Improved Deep Learning on Non-Stationary Time-Series, 2022](https://arxiv.org/abs/2202.02403)  
 
 ### anomaly detection in time series data  
