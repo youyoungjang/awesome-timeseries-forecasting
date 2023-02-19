@@ -50,3 +50,5 @@
 - [Timeseries Anomaly Detection using Temporal Hierarchical One-Class Network, 2020](https://proceedings.neurips.cc/paper/2020/file/97e401a02082021fd24957f852e0e475-Paper.pdf)  
 - [Graph Neural Network-Based Anomaly Detection in Multivariate Time Series, 2021](https://arxiv.org/pdf/2106.06947.pdf)  
 
+### reviews (korean)  
+- [딥러닝 기반의 multivariate time series anomaly detection](https://youyoungjang.github.io/2023-02-04-mtsad/)  

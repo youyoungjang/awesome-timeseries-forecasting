@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-from datetime import datetime
 
 import torch
 import pytorch_lightning as pl
@@ -8,35 +7,13 @@ from pytorch_lightning.callbacks import EarlyStopping, LearningRateMonitor, Mode
 from pytorch_lightning.loggers import TensorBoardLogger
 from pytorch_forecasting import Baseline, TimeSeriesDataSet, TemporalFusionTransformer
 from pytorch_forecasting.data import GroupNormalizer
-from pytorch_forecasting.metrics import SMAPE, PoissonLoss, QuantileLoss
-from pytorch_forecasting.models.temporal_fusion_transformer.tuning import optimize_hyperparameters
-
-from data_utils.utils import get_stock_price
+from pytorch_forecasting.data.examples import get_stallion_data
+from pytorch_forecasting.metrics import QuantileLoss
 
 
 pd.set_option('display.max_rows', 50)
 pd.set_option('display.max_columns', 50)
 
-
-# today = datetime.strftime(datetime.today(), '%Y-%m-%d')
-# df = get_stock_price(ticker='AXP', start_date='2000-01-01', end_date=today)
-#
-# df = (
-#     df.reset_index()
-#     .rename({'index': 'time_idx'}, axis=1)
-# )
-#
-# df['group'] = 0
-
-# df = pd.melt(
-#     df,
-#     id_vars=['time_idx', 'date'],
-#     value_vars=['price', 'volume'],
-#     var_name='group',
-#     value_name='value',
-# )
-
-from pytorch_forecasting.data.examples import get_stallion_data
 
 df = get_stallion_data()
 
@@ -116,6 +93,13 @@ val_dataset = TimeSeriesDataSet.from_dataset(
 # create dataloaders
 train_dataloader = train_dataset.to_dataloader(train=True, batch_size=batch_size)
 val_dataloader = val_dataset.to_dataloader(train=False, batch_size=batch_size * 10)
+
+# check
+# batch: x_cat, x_cont, encoder_length, decoder_length
+#   encoder_target, encoder_time_idx_start, groups, target_scale
+batch, y = next(iter(train_dataset))
+batch
+
 
 # test baseline model
 actuals = torch.cat([y for x, (y, weight) in iter(val_dataloader)])
